@@ -18,7 +18,7 @@ public class teste extends Frame
   
   
       g.drawLine(60, 30, 10, 70);
-  g.setColor(Color.blue);
+  g.setColor(Color.yellow);
       g.drawLine(10, 70, 10, 140);
   g.setColor(Color.red);
       g.drawLine(120, 140, 10, 140);
