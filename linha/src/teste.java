@@ -10,7 +10,7 @@ public class teste extends Frame
    {  super("Tela");
       addWindowListener(new WindowAdapter()
          {public void windowClosing(WindowEvent e){System.exit(0);}});
-      setSize(700, 500);
+      setSize(700, 400);
       show();
    }
    public void paint(Graphics g)
