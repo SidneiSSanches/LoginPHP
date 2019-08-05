@@ -1,0 +1,91 @@
+#center-all {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#name-project{
+  font-size: 23px;
+}
+
+#box-shadow {
+  border: 0px solid; 
+  width: 200px; 
+  padding: 10px; 
+  box-shadow: 5px 10px 8px #888888;
+}
+
+#edit-padding {
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    #box-shadow {
+      border: 0px solid; 
+      width: 50%; 
+      padding: 10px; 
+      box-shadow: 5px 10px 8px #888888;
+    }
+    
+    #input {
+      font-size: 25px;
+    }
+    
+    #name-project{
+      font-size: 50px;
+    }
+}
+ 
+/* min-width & max-width */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    #box-shadow {
+      border: 0px solid; 
+      width: 50%; 
+      padding: 10px; 
+      box-shadow: 5px 10px 8px #888888;
+    }
+    
+    input {
+      font-size: 25px;
+    }
+    
+    #name-project{
+      font-size: 50px;
+    }
+}
+ 
+/* max device width */
+@media screen and (max-device-width: 480px) {
+    #box-shadow {
+      border: 0px solid; 
+      width: 50%; 
+      padding: 10px; 
+      box-shadow: 5px 10px 8px #888888;
+    }
+    
+    input {
+      font-size: 25px;
+    }
+    
+    #name-project{
+      font-size: 50px;
+    }
+}
+
+
+.margin-top50 {margin-top: 50px;}
+.center {text-align: center;}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
